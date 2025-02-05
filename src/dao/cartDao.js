@@ -1,4 +1,4 @@
-const Cart = require("../models/cart");
+const Cart = require("../models/cart.model.jjs");
 
 class CartDao {
     async getById(id) {
